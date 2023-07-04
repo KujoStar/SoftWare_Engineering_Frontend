@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 1rem;
+
+  >* {
+    flex-basis: 18%;
+  }
+}
+
+.search_form {
+  width: 100%;
+  >:first-child {
+    margin-left: 1.73% !important;
+  }
+}
+
+.container_label {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.search {
+  flex-basis: 54%;
+
+  >div:first-child {
+    width: 100%;
+  }
+}

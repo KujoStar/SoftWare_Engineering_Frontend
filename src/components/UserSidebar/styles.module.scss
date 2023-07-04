@@ -1,0 +1,24 @@
+.labels {
+  margin-top: 0.5rem;
+
+  font-family: "Helvetica Neue" !important;
+  color: black !important;
+
+  > div:not(:first-child) {
+    margin-top: 0.8rem;
+  }
+
+  margin-bottom: 1rem;
+}
+
+.tips {
+  color: gray;
+
+  > div:not(:first-child) {
+    margin-top: 0.5rem;
+  }
+
+  @media (max-width: 1200px) {
+    font-size: 0.8rem;
+  }
+}

@@ -1,0 +1,15 @@
+@mixin wm_text($top: 50px, $left: 50px, $font-size: 0.1px) {
+  top: $top;
+  left: $left;
+  font-size: $font-size;
+}
+
+.watermark_text {
+  @include wm_text();
+  position: absolute;
+  color: whitesmoke;
+  opacity: 0.8;
+  font-family: DejaVu Sans;
+  font-style: oblique;
+  font-weight: normal;
+}

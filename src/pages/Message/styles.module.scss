@@ -1,0 +1,35 @@
+.loader {
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 1rem;
+  > * {
+    flex-basis: 18%;
+  }
+}
+
+.search {
+  flex-basis: 54%;
+
+  > div:first-child {
+    width: 100%;
+  }
+}
+
+.searchItem {
+  display: flex;
+}
+
+.searchItem:hover {
+  display: flex;
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.1), 
+    rgba(0, 0, 0, 0.1));
+  transition: 0.25s;
+}
